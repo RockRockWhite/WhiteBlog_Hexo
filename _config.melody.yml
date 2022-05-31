@@ -77,7 +77,7 @@ local_search:
 # ---------------
 mathjax:
   enable: false
-  cdn: https://cdn.jsdelivr.net/npm/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  cdn: https://unpkg.com/mathjax@2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 # KaTeX
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/third-party-support.html#katex
@@ -85,7 +85,7 @@ mathjax:
 katex:
   enable: false
   cdn:
-    css: https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css
+    css: https://unpkg.com/katex@latest/dist/katex.min.css
   hide_scrollbar: true
 
 # Toggle fireworks (IE >= 10)
@@ -121,14 +121,14 @@ scripts:
 # ---------------
 cdn:
   css:
-    fontawesome: https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css
-    # fontawesomeV5: https://use.fontawesome.com/releases/v5.3.1/css/all.css
+    fontawesome: https://unpkg.com/font-awesome@latest/css/font-awesome.min.css
+    fontawesomeV5: https://use.fontawesome.com/releases/v5.3.1/css/all.css
   js:
-    anime: https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js
-    jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
-    fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
-    velocity: https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js
-    velocity-ui: https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js
+    anime: https://unpkg.com/animejs@latest/lib/anime.min.js
+    jquery: https://unpkg.com/jquery@latest/dist/jquery.min.js
+    fancybox: https://unpkg.com/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
+    velocity: https://unpkg.com/velocity-animate@latest/velocity.min.js
+    velocity-ui: https://unpkg.com/velocity-ui-pack@latest/velocity.ui.min.js
 
 # Post info settings
 # ---------------
